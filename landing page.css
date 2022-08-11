@@ -1,0 +1,31 @@
+.hero{
+    background-color: red;
+}
+.schoolwork div{
+    background-color: green;
+    border: solid;
+}
+.footer{
+    background-color: grey;
+}
+.progress-bar{
+    background-color: blue;
+}
+.announcements{
+    background-color: cyan;
+}
+@media (min-width:570px) {
+    .hero{
+        background-color: orange;
+    }
+    .schoolwork div{
+        height: 200px;
+        width: 200px;
+        border-radius: 15px;
+        
+    }
+    .schoolwork{
+        background-color: black;
+        display: grid;
+    }
+}
