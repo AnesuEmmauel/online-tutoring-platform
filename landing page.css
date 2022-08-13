@@ -24,8 +24,15 @@
         border-radius: 15px;
         
     }
+    .schoolwork div:hover{
+        width: 210px;
+        height: 210px;
+        box-shadow: 3px 3px 10px 5px rgb(12, 75, 192);
+    }
     .schoolwork{
         background-color: black;
         display: grid;
+        grid-template-columns: 250px 250px 250px 250px 250px;
+        gap: 25px;
     }
 }
